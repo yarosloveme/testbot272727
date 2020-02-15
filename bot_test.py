@@ -38,7 +38,7 @@ fuck_word29 = "главный"
 fuck_word30 = "главная"
 fuck_word31 = "базар"
 fuck_word32 = "наебал"
-fuck_word32 = "обманул"
+fuck_word33 = "обманул"
 
 
 @client.event
