@@ -32,6 +32,13 @@ fuck_word23 = "высрал"
 fuck_word24 = "пидорас"
 fuck_word25 = "пидарас"
 fuck_word26 = "даун"
+fuck_word27 = "каблук"
+fuck_word28 = "лох"
+fuck_word29 = "главный"
+fuck_word30 = "главная"
+fuck_word31 = "базар"
+fuck_word32 = "наебал"
+fuck_word32 = "обманул"
 
 
 @client.event
@@ -97,6 +104,21 @@ async def on_message( message ):
 		await message.channel.send('Осуждаю'f' {author.mention}')
 	if fuck_word26 in msg:
 		await message.channel.send('Начнем с того, что ты пиздоглазое мудило'f' {author.mention}')
+	if fuck_word27 in msg:
+		await message.channel.send('Деснами будешь улыбаться за такой бaзaр'f' {author.mention}')
+	if fuck_word28 in msg:
+		await message.channel.send('Выйди, дай себе леща и зайди нормально, или то я сам помогу это сделать'f' {author.mention}')
+	if fuck_word29 in msg:
+		await message.channel.send('Авторитарному авторитету другой авторитет - не всегда авторитет'f' {author.mention}')
+	if fuck_word30 in msg:
+		await message.channel.send('Авторитарному авторитету другой авторитет - не всегда авторитет'f' {author.mention}')
+	if fuck_word31 in msg:
+		await message.channel.send('Бaзaр пусть будет на бaзaре, а я говорю и участвую в разговоре'f' {author.mention}')
+	if fuck_word32 in msg:
+		await message.channel.send('Нас наебaли, всем спасибо, все свободны'f' {author.mention}')
+	if fuck_word33 in msg:
+		await message.channel.send('Нас наебaли, всем спасибо, все свободны'f' {author.mention}')
+	
 
 
 
