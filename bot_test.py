@@ -39,6 +39,8 @@ fuck_word30 = "главная"
 fuck_word31 = "базар"
 fuck_word32 = "наебал"
 fuck_word33 = "обманул"
+fuck_word34 = "хуйня"
+fuck_word35 = "добавь"
 
 
 @client.event
@@ -118,7 +120,10 @@ async def on_message( message ):
 		await message.channel.send('Нас наебaли, всем спасибо, все свободны'f' {author.mention}')
 	if fuck_word33 in msg:
 		await message.channel.send('Нас наебaли, всем спасибо, все свободны'f' {author.mention}')
-	
+	if fuck_word34 in msg:
+		await message.channel.send('Страшно, очень страшно! Мы не знаем что это такое, если бы мы знали что это такое, мы не знаем что это такое!'f' {author.mention}')
+	if fuck_word35 in msg:
+		await message.channel.send('Отсоси, потом проси'f' {author.mention}')
 
 
 
