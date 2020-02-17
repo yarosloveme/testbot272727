@@ -77,7 +77,7 @@ async def on_message( message ):
 	if fuck_word7 in msg:
 		await message.channel.send('Хуизи')
 	if fuck_word8 in msg:
-		await message.channel.send('Отсоси, потом проси'f' {author.mention}')
+		await message.channel.send('Oтсoси, потом проси'f' {author.mention}')
 	if fuck_word9 in msg:
 		await message.channel.send('Ну здравствуй, дорогуша'f' {author.mention}')
 	if fuck_word10 in msg:
