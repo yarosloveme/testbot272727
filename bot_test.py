@@ -24,7 +24,7 @@ fuck_word15 = "бро"
 fuck_word16 = "ахуел"
 fuck_word17 = "охуел"
 fuck_word18 = "сосешь"
-fuck_word19 = "ярик"
+fuck_word19 = "яpик"
 fuck_word20 = "чмо"
 fuck_word21 = "выеб"
 fuck_word22 = "дурак"
@@ -131,7 +131,7 @@ async def on_message( message ):
 	if fuck_word34 in msg:
 		await message.channel.send('Страшно, очень страшно! Мы не знаем что это такое, если бы мы знали что это такое, мы не знаем что это такое!'f' {author.mention}')
 	if fuck_word35 in msg:
-		await message.channel.send('Отсоси, потом проси'f' {author.mention}')
+		await message.channel.send('Oтсoси, потом проси'f' {author.mention}')
 	if fuck_word36 in msg:
 		await message.channel.send('ЕЩЁ ОДИН ГУДОК С ТВОЕЙ ПЛАТФОРМЫ И ТВОЙ ЗУБНОЙ СОСТАВ ТРОНЕТСЯ'f' {author.mention}')
 	if fuck_word37 in msg:
