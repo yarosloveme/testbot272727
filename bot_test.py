@@ -151,26 +151,6 @@ async def on_message( message ):
 
 	
 
-#ip_info
-@Bot.command()
-async def ip_info( ctx, arg ):
-    response = requests.get( f'http://ipinfo.io/{ arg }/json' )
-
-    user_ip = response.json()[ 'ip' ]
-    user_city = response.json()[ 'city' ]
-    user_region = response.json()[ 'region' ]
-    user_country = response.json()[ 'country' ]
-    user_location = response.json()[ 'loc' ]
-    user_org = response.json()[ 'org' ]
-    user_timezone = response.json()[ 'timezone' ]
-
-    global all_info
-    emb = discord.Embed(title = f'Информация об айпи {arg}:',
-    description = f':united_nations: **Страна**: { user_city }\n\n:regional_indicator_r: **Регион**: { user_region }\n\n:cityscape: **Город**: { user_country }\n\n:map: **Локация**: { user_location }\n\n:bust_in_silhouette: **Организация**: { user_org }\n\n:clock: **Временная зона**: { user_timezone }', colour= 0x39d0d6, inline = False)
-    emb.set_footer(text= "Вызвано: {}".format(ctx.message.author), icon_url= ctx.message.author.avatar_url)
-
-    await ctx.send(embed = emb)
-
 
 token = os.environ.get('BOT_TOKEN')
 client.run( token )
