@@ -20,7 +20,7 @@ fuck_word11 = "денег"
 fuck_word12 = "пизда"
 fuck_word13 = "алло"
 fuck_word14 = "клоун"
-fuck_word15 = " бро"
+#fuck_word15 = " бро"
 fuck_word16 = "ахуел"
 fuck_word17 = "охуел"
 fuck_word18 = "сосешь"
@@ -33,7 +33,7 @@ fuck_word24 = "пидорас"
 fuck_word25 = "пидарас"
 fuck_word26 = "даун"
 fuck_word27 = "каблук"
-fuck_word28 = " лох"
+#fuck_word28 = " лох"
 fuck_word29 = "главный"
 fuck_word30 = "главная"
 fuck_word31 = "базар"
@@ -92,8 +92,8 @@ async def on_message( message ):
 		await message.channel.send('А хуем по лбу не дало?'f' {author.mention}')
 	if fuck_word14 in msg:
 		await message.channel.send('Цирк уехал, ты остался'f' {author.mention}')
-	if fuck_word15 in msg:
-		await message.channel.send('Говно')
+	#if fuck_word15 in msg:
+		#await message.channel.send('Говно')
 	if fuck_word16 in msg:
 		await message.channel.send('Аккуратнее с языком, молодой человек'f' {author.mention}')
 	if fuck_word17 in msg:
@@ -118,8 +118,8 @@ async def on_message( message ):
 		await message.channel.send('Начнем с того, что ты пиздоглазое мудило'f' {author.mention}')
 	if fuck_word27 in msg:
 		await message.channel.send('Деснами будешь улыбаться за такой бaзaр'f' {author.mention}')
-	if fuck_word28 in msg:
-		await message.channel.send('Выйди, дай себе леща и зайди нормально, или я сам помогу тебе это сделать'f' {author.mention}')
+	#if fuck_word28 in msg:
+		#await message.channel.send('Выйди, дай себе леща и зайди нормально, или я сам помогу тебе это сделать'f' {author.mention}')
 	if fuck_word29 in msg:
 		await message.channel.send('Авторитарному авторитету другой авторитет - не всегда авторитет'f' {author.mention}')
 	if fuck_word30 in msg:
