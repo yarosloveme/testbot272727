@@ -59,6 +59,8 @@ async def on_ready():
 @client.event
 
 async def on_message( message ):
+	await client.process_commands(message)
+	
 	msg = message.content.lower()
 	author = message.author
 
