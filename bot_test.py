@@ -149,16 +149,7 @@ async def on_message( message ):
 	if fuck_word43 in msg:
 		await message.channel.send('Экран протри'f' {author.mention}')
 
-		
-@commands.Cog.listener()
-async def on_user_update(self, before, after):
-    if after.avatar is not None:
-        emb = discord.Embed(title = 'Avatar changed', descriprion = f'{after.mention} has changed his avatar!', color = 0x39d0d6)
-        before_avatar_link = before.avatar_url
-        after_avatar_link = after.avatar_url
-        emb.add_field(name = 'Avatar', value = f'[before]({before_avatar_link}) -> [after]({after_avatar_link})')
-        channel = self.bot.get_channel(638717563840364554)
-        await channel.send(embed = emb)
+	
 
 #ip_info
 @Bot.command()
