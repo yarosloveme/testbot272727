@@ -49,6 +49,7 @@ fuck_word40 = "отсоси"
 fuck_word41 = "шлюха"
 fuck_word42 = "смешно"
 fuck_word43 = "тьфу"
+fuck_word44 = "бро"
 
 
 
@@ -151,7 +152,8 @@ async def on_message( message ):
 		await message.channel.send('Смеется последним тот, до кого медленно доходит...'f' {author.mention}')
 	if fuck_word43 in msg:
 		await message.channel.send('Экран протри'f' {author.mention}')
-
+	if msg in fuck_word44:
+		await message.channel.send('Говно')
 	
 
 
