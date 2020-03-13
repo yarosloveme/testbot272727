@@ -50,6 +50,7 @@ fuck_word41 = "шлюха"
 fuck_word42 = "смешно"
 fuck_word43 = "тьфу"
 fuck_word44 = "бро"
+fuck_word44 = "нахуй"
 
 
 
@@ -154,6 +155,8 @@ async def on_message( message ):
 		await message.channel.send('Экран протри'f' {author.mention}')
 	if msg in fuck_word44:
 		await message.channel.send('Говно')
+	if fuck_word45 in msg:
+		await message.channel.send('Офнись мусор и не высирай дичь, которая нихуя не является правдой, это раз, два это параша прокрученная у тебя в голове в целях обычного высера. Так что, попрошу, больше такой хуеты не высирать в целях отвращения моих дальнейших токсичных действий.'f' {author.mention}')
 	
 
 
