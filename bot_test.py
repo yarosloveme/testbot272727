@@ -110,7 +110,7 @@ async def on_message( message ):
 	if fuck_word21 in msg:
 		await message.channel.send('Во 1) хуле ты мне сделаешь 2) вовторых пошел нахуй в тетьих 3) что ты мне сделаешь, я в другмо городе. За мат извени'f' {author.mention}')
 	if fuck_word22 in msg:
-		await message.channel.send('Соизвольте пойти нахуй, сэр уебан'f' {author.mention}')
+		await message.channel.send('Соизвольте пойти нaхуй, сэр уебан'f' {author.mention}')
 	if fuck_word23 in msg:
 		await message.channel.send('Обидно, что кулака у меня два, а ебальник у тебя один'f' {author.mention}')
 	if fuck_word24 in msg:
