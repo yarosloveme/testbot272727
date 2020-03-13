@@ -50,7 +50,7 @@ fuck_word41 = "шлюха"
 fuck_word42 = "смешно"
 fuck_word43 = "тьфу"
 fuck_word44 = "бро"
-fuck_word44 = "нахуй"
+fuck_word45 = "нахуй"
 
 
 
@@ -76,7 +76,7 @@ async def on_message( message ):
 	if fuck_word4 in msg:
 		await message.channel.send('От такого же слышу'f' {author.mention}')
 	if fuck_word5 in msg:
-		await message.channel.send('Я лапочка, а ты иди нахуй'f' {author.mention}')
+		await message.channel.send('Я лапочка, а ты иди нaхуй'f' {author.mention}')
 	if fuck_word6 in msg:
 		await message.channel.send('Сам такой'f' {author.mention}')
 	if fuck_word7 in msg:
