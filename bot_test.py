@@ -50,7 +50,7 @@ fuck_word41 = "шлюха"
 fuck_word42 = "смешно"
 fuck_word43 = "тьфу"
 #fuck_word44 = "бро"
-fuck_word45 = "нахуй"
+#fuck_word45 = "нахуй"
 fuck_word46 = "bro white rose"
 
 
