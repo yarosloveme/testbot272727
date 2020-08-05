@@ -162,7 +162,7 @@ async def on_message( message ):
 	if fuck_word46 in msg:
 		await message.channel.send('Не, я не буду на них высерать, а то еще в инсте на меня расплачутся, разоблачение сделают, и я не топ1 бот буду в глазах аудитории. Хотя похуй, бpо - говно')
 	if fuck_word47 in msg:
-		await message.channel.send('Хуяркси')
+		await message.channel.send('Хуяркcи')
 	
 
 
