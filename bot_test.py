@@ -17,7 +17,7 @@ fuck_word8 = "нитро"
 fuck_word9 = "привет"
 fuck_word10 = "френда"
 fuck_word11 = "денег"
-fuck_word12 = "пизда"
+fuck_word12 = "аркси"
 fuck_word13 = "алло"
 fuck_word14 = "клоун"
 fuck_word15 = "бро"
@@ -92,7 +92,7 @@ async def on_message( message ):
 	if fuck_word11 in msg:
 		await message.channel.send('Ясно, бомж'f' {author.mention}')
 	if fuck_word12 in msg:
-		await message.channel.send('Манда')
+		await message.channel.send('Хуяркси')
 	if fuck_word13 in msg:
 		await message.channel.send('А хуем по лбу не дало?'f' {author.mention}')
 	if fuck_word14 in msg:
