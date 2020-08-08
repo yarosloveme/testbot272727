@@ -53,6 +53,7 @@ fuck_word43 = "тьфу"
 #fuck_word45 = "нахуй"
 fuck_word46 = "bro white rose"
 fuck_word47 = "аркси"
+fuck_word48 = "слит"
 
 
 
@@ -163,6 +164,9 @@ async def on_message( message ):
 		await message.channel.send('Не, я не буду на них высерать, а то еще в инсте на меня расплачутся, разоблачение сделают, и я не топ1 бот буду в глазах аудитории. Хотя похуй, бpо - говно')
 	if fuck_word47 in msg:
 		await message.channel.send('Хуяркси')
+        if fuck_word48 in msg:
+		await message.channel.send('Прям как ты при каждом споре'f' {author.mention}')
+	
 
 
 token = os.environ.get('BOT_TOKEN')
